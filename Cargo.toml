@@ -6,5 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-reqwest = "0.11.4"
-tokio = { version = "1.6.1", features = ["full"] }
+reqwest = "0.11.16"
+tokio = { version = "1.27.0", features = ["full"] }
+wax = "0.5.0"
+regex = "1.7.3"
+rayon = "1.7.0"
+clap = { version = "4.2.2", features = ["derive"] }
+pbr = "1.1.1"
+futures = "0.3.28"
+urlencoding = "2.1.2"
